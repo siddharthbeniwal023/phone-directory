@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import Header from "./Header"
 function App() {
   return (
@@ -7,6 +7,6 @@ function App() {
       <button>ADD</button>
       <button>DELETE</button>
     </div>
-  );
+  )
 }
-export default App;
+export default App
