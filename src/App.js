@@ -1,11 +1,18 @@
 import React from "react"
 import Header from "./Header"
+import "./app.css"
 function App() {
   return (
     <div>
       <Header />
-      <button>ADD</button>
-      <button>DELETE</button>
+        <div className="component-body-container">
+          <button className="custom-btn add-btn">Add</button>
+
+          <div className="grid-container heading-container">
+            <span className="grid-item name-heading">Name</span>
+            <span className="grid-item phone-heading">Phone</span>
+          </div>
+    </div>
     </div>
   )
 }
