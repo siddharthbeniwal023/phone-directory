@@ -42,3 +42,7 @@
     color: #808080;
     text-transform: uppercase;
 }
+button:hover{
+    transition: .5s;
+    border-radius: 5px;
+}
